@@ -15,12 +15,13 @@ style: |
   .step small { display:block; font-size:32px; font-weight:400; color:#4a5a52; }
   .tag { position:absolute; right:80px; bottom:60px; font-size:28px; color:#8aa297; }
   section.dark { background:#1E5C46; color:#F2F7F4; } section.dark h1 { color:#FAC775; } section.dark h2 { color:#FAC775; } section.dark strong { color:#FAC775; } section.dark .sub { color:#cfe3d9; }
-  img.logo { width:150px; margin-bottom:40px; }
+  .brand { display:flex; align-items:center; gap:28px; margin-bottom:56px; }
+  .brand img.mark { width:120px; } .brand img.word { height:64px; }
   code { background:#FAC775; color:#1E5C46; padding:2px 18px; border-radius:14px; font-weight:900; }
 ---
 
 <!-- _class: dark -->
-<img class="logo" src="logo.svg">
+<div class="brand"><img class="mark" src="logo-mark.svg"><img class="word" src="wordmark-light.svg"></div>
 
 # 二手課本
 # 不用再大海撈針
@@ -89,7 +90,7 @@ style: |
 ---
 
 <!-- _class: dark -->
-<img class="logo" src="logo.svg">
+<div class="brand"><img class="mark" src="logo-mark.svg"><img class="word" src="wordmark-light.svg"></div>
 
 # 先上架<br>第一本書吧
 

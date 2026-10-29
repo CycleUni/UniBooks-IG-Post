@@ -11,7 +11,7 @@ UniBooks-IG-Post/
 ├── node_modules/       （不進 git）
 └── User Guide/         第一篇：平台介紹與使用方式（8 頁）
     ├── guide.md        Marp 原稿
-    ├── logo.svg        取自 UniBooks 網站 favicon
+    ├── logo-mark.svg、wordmark-light.svg  品牌 logo（取自網站 icons，字標為淺色版）
     └── out/            輸出的 PNG
 ```
 
